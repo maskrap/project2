@@ -2,6 +2,24 @@
   display: none;
 }
 
+body  {
+  padding-top: 70px;
+}
+
 .btn {
   margin-top: 20px;
+}
+
+.endmessage {
+  margin-top: 20px;
+}
+
+.container  {
+  max-width: 5000px;
+}
+
+#myCarousel {
+  margin-top: 25px;
+  text-align: center;
+  padding-bottom: 50px;
 }

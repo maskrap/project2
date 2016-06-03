@@ -1,6 +1,10 @@
 $(document).ready(function() {
   $("form#questions").submit(function(event) {
     event.preventDefault();
+
+    $('.carousel').myCarousel({
+      interval: 2000
+    })
     var trip = $("#trip").val();
     var lan = $("#lan").val();
     var city = $("#city").val();
