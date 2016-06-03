@@ -1,21 +1,22 @@
 $(document).ready(function() {
   $("form#questions").submit(function(event) {
     event.preventDefault();
-    var name = $("#name").val();
-    var age = $("#age").val();
-    var gender = $("#gender").val();
-    var movie = $("#movie").val();
+    var trip = $("#trip").val();
+    var lan = $("#lan").val();
+    var city = $("#city").val();
+    var budget = $("#budget").val();
+    var ass = $("#ass").val();
 
     $('#horse').hide();
 
-    if (age < 18) {
+    if (trip === "nature" && lan === "dontcare" || lan === "care" || lan === "good" && city === "small" && ass === "no") {
       $('#final').show();
-      $('#underage').show();
+      $('#cinque').show();
 
-    } else if (age > 40 && gender === "male") {
+    }
+      else if (trip === "nature" && lan === "dontcare" || lan === "care" || lan === "good" && city === "small" && ass === "yes") {
         $('#final').show();
-        $('#jeff').show();
-        }
+        $('#bologna').show();
 
       else if (age <= 40 && gender === "male") {
         $('#final').show();
@@ -38,7 +39,7 @@ $(document).ready(function() {
 
       else {
         $('#final').show();
-        $('#horse').show();
+        $('#bologna').show();
       }
 
 
