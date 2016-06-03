@@ -2,10 +2,6 @@
   display: none;
 }
 
-body  {
-  padding-top: 70px;
-}
-
 .btn {
   margin-top: 20px;
 }
@@ -23,3 +19,36 @@ body  {
   text-align: center;
   padding-bottom: 50px;
 }
+
+
+/*  Styling fun starts here! */
+
+html {
+	margin: 40px;
+	padding: 25px;
+	}
+body {
+	font: 129% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	background: #fff
+  url(http://i.imgur.com/v0YhTgk.jpg)no-repeat bottom center;
+	margin: 0;
+	padding-bottom: 250px;
+	}
+#h3edit {
+  padding-bottom: 30px;
+}
+#questions  {
+  padding-bottom: 0px;
+}
+p {
+	margin-top: 0;
+	text-align: justify;
+	}
+h3 {
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #7D775C;
+	}
