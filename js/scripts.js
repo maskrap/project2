@@ -7,41 +7,61 @@ $(document).ready(function() {
     var budget = $("#budget").val();
     var ass = $("#ass").val();
 
-    $('#horse').hide();
-
-    if (trip === "nature" && lan === "dontcare" || lan === "care" || lan === "good" && city === "small" && ass === "no") {
+    if (trip === "food" && lan === "dontcare" || lan === "care" || lan === "good" && city === "small" || city === "medium") {
       $('#final').show();
-      $('#cinque').show();
+      $('#bologna').show();
 
+      $('#rome').hide();
+      $('#cinque').hide();
     }
+
+      else if (trip === "nature" && lan === "dontcare" || lan === "care" || lan === "good" && city === "small" && ass === "no") {
+        $('#final').show();
+        $('#cinque').show();
+
+        $('#bologna').hide();
+        $('#rome').hide();
+      }
+
       else if (trip === "nature" && lan === "dontcare" || lan === "care" || lan === "good" && city === "small" && ass === "yes") {
         $('#final').show();
         $('#bologna').show();
 
-      else if (age <= 40 && gender === "male") {
-        $('#final').show();
-        $('#tom').show();
+        $('#rome').hide();
+        $('#cinque').hide();
       }
 
-      else if (age <= 40 && gender === "female") {
+      else if (trip === "food" && lan === "care" || lan === "good" && city === "small" || city === "medium") {
         $('#final').show();
-        $('#emma').show();
-      }
-      else if (age > 40 && gender === "female") {
-        $('#final').show();
-        $('#helen').show();
+        $('#bologna').show();
+
+        $('#rome').hide();
+        $('#cinque').hide();
       }
 
-      else if (movie === "horror") {
+      else if (trip === "history" && lan === "care" || lan === "good" || lan === "dontcare" && city === "big") {
         $('#final').show();
-        $('#helen').show();
+        $('#rome').show();
+
+        $('#bologna').hide();
+        $('#cinque').hide();
+      }
+
+      else if (trip === "history" && lan === "care" || lan === "good" || lan === "dontcare" && city === "medium" || city === "small") {
+        $('#final').show();
+        $('#bologna').show();
+
+        $('#rome').hide();
+        $('#cinque').hide();
       }
 
       else {
         $('#final').show();
         $('#bologna').show();
-      }
 
+        $('#rome').hide();
+        $('#cinque').hide();
+      }
 
   });
 });
