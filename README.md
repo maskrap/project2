@@ -25,7 +25,7 @@ You are able to discuss the flow of your code and the concepts behind it with an
 ##Setup/installation instructions
 Clone the ['project2' repository](https://github.com/sampark18/project2) and open the index.html and double click the file using your favorite browser.
 
-You can also go directly to the [GitHub page](http://sampark18.github.io/project2/).
+You can also go directly to [gh-pages](http://sampark18.github.io/project2/).
 
 ##Technologies Used
 * Markdown
