@@ -23,7 +23,7 @@ Web page is styled using Bootstrap and custom CSS.
 You are able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology."
 
 ##Setup/installation instructions
-Clone the [G'project2' repository](https://github.com/sampark18/project2) and open the index.html and double click the file using your favorite browser.
+Clone the ['project2' repository](https://github.com/sampark18/project2) and open the index.html and double click the file using your favorite browser.
 
 You can also go directly to the [GitHub page](http://sampark18.github.io/project2/).
 
